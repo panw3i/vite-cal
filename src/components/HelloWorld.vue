@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="padding: 15px;">
     <el-form label-position="left" label-width="150px">
       <el-form-item label="贷款总额（万元）：">
         <el-input v-model="principal" placeholder="贷款总额"></el-input>
@@ -16,7 +16,7 @@
       </el-form-item>
       <el-form-item label="贷款期限（月）：">
         <el-input v-model="term" placeholder="贷款期限">
-          <template #suffix>月</template>
+          <template #suffix>个月</template>
         </el-input>
       </el-form-item>
       <el-form-item>
